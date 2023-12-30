@@ -1,0 +1,21 @@
+.md_img{    
+    height: 50vh;
+    overflow: hidden;
+}
+.md_img img{
+    width: 100%;
+    transform: translateY(-10%);
+}
+
+.search_box{
+    transform: translateY(-100px);
+}
+
+footer{
+    height: 15vh;
+}
+
+.profile{
+    height: 10vh;
+
+}
