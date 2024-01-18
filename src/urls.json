@@ -1,0 +1,10 @@
+{
+    "home":[
+        "https://api.jikan.moe/v4/seasons/now?limit=8",
+        "https://api.jikan.moe/v4/top/anime?limit=8",
+        "https://api.jikan.moe/v4/schedules?limit=8"
+    ],
+    "seasons":[
+        "https://api.jikan.moe/v4/seasons/now"
+    ]
+}
