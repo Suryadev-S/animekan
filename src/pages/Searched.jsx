@@ -9,7 +9,7 @@ const Searched = () => {
     const { url } = useContext(contextUrl);
     const [dataObject, setDataObject] = useState({
         dataArray: [],
-        pagination: ''
+        pagination: '' 
     });
     useEffect(() => {
         async function populate() {
