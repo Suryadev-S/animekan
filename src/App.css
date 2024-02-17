@@ -266,6 +266,11 @@ main{
     border-radius: 5px;
 }
 
+.pagination-bar a.active{
+    background-color: var(--bodyColor);
+    color: #fff;
+}
+
 footer{
     background-color: #2b2a2a;
     color:#8e8eff;

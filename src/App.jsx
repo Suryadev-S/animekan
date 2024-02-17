@@ -10,11 +10,12 @@ import Profile from './pages/Profile'
 function App() {
   const [url, setUrl] = useState('');
   return (
-    <contextUrl.Provider value={{url, setUrl}}>
+    <contextUrl.Provider value={{ url, setUrl }}>
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
           <Route path='/search' element={<Searched />} />
+          <Route path='/search/:id' element={<Searched />} />
           <Route path='/profile' element={<Profile />} />
         </Route>
       </Routes>
